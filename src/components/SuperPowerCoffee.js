@@ -1,14 +1,9 @@
 import React from 'react'
-import {BrowserRouter, Link} from 'react-router-dom'
 
 const SuperPowerCoffee = () => {
     return (
-        <div>
-
-         
-            <Link exact to="/">Home</Link>
-            
-            
+        <div className="SuperPowerCoffee">
+            <img src="https://i.pinimg.com/originals/c9/0a/98/c90a989fcf6b4d55d44ebd367705fc38.gif"></img>
         </div>
     )
 }
